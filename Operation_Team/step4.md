@@ -1,10 +1,7 @@
-We are going to create a new database employee and user bob. And bob is a staff. Therefore, we need to grant privilege to bob in the employees databases. If Bob is an ordinary employee, he will only have basic permissions. If Bob's position is higher, he will have higher authority 
+For database security. Data backup is a must. And the data is not recommended to be stored locally. This is because when there is a problem with local resources, data will be lost. Therefore, it is generally recommended to store the data on an external hard drive or in the cloud. And you need 2 backups. In order to avoid one of the hard drives has been damaged. 
 
-Create a new database (name: employees): 
-`create database employees;`{{execute}}
+Full back up:
+`docker exec mysql //usr/bin/mysqldump -u root --password=12345 --routines --triggers mysql > test_db_backup.sql`{{execute}}
 
-Create a new table staff: 
-`CREATE TABLE staff ( staff_id int, last_name varchar(255), first_name varchar(255), address varchar(255), email varchar(255) );`{{execute}}
-
-Create user bob: 
-`create user 'bob'@'%' identified by 'bob';`{{execute}}
+Recovery:
+`cat test_db_backup.sql | docker exec -i mysql //usr/bin/mysql -u root --password=12345 mysql`{{execute}}
