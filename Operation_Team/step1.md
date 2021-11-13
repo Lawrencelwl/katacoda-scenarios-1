@@ -1,16 +1,20 @@
-Login mysql as root user: 
+In this user manual, user will know how to set up MYSQL, WordPress by docker. After that, user can use the WooCommerce plugin. 
 
-`docker exec –it mysql bash` {{execute}}
+## Task
 
-`Mysql –u root -p` {{execute}}
+First, it requests a connection to the wordpress-network. When the network created, it can have a communication between WordPress container and MYSQL container. 
 
-The general log is used to improve the performance and security of the MySQL Database Server. 
+Please input below command in the katacoda:
+`docker network create wordpress-network`{{execute}}
 
-General log is a log that collects all events in the databases. Because the general log records all actions. So, when there is a problem with the database. We can find the problem through the general log.
+Second, it requests to set up a MYSQL container:
+`docker run --name mysql -e MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=12345 --network=wordpress-network -v db_data:/var/lib/mysql  -d mysql --general-log=1 --log-output=TABLE`{{execute}}
 
-First, using database ‘mysql’:
-`use mysql;`{{execute}}
+Third, it requests to download wordpress image:
+`docker pull wordpress`{{execute}}
 
-Second, show the table schema of the general_log table:
+Final, it requests to set up a wordpress container
+`docker run -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=12345 -e WORDPRESS_DB_HOST=mysql:3306 --name wordpress --network=wordpress-network -p 10080:80 -v /tmp/html/:/var/www/html -d wordpress`{{execute}}
 
-`describe general_log;`{{execute}}
+You can input the following command to check container of wordpress and MYSQL running or not:
+`docker ps `{{execute}}
