@@ -1,0 +1,1 @@
+In this scenario, you will learn how to install security plugin to protect your WordPress server.

@@ -1,0 +1,1 @@
+Note that Wordfence also offers Two-Factor Authentication as a feature but we are not going to use it here in this scenario since we choose miniOrange in our previous scenario as our preferred 2FA plugin for the interface and in-depth option it provides.

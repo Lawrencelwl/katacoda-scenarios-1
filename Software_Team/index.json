@@ -1,0 +1,48 @@
+{
+  "title": "Attack prevention and monitoring",
+  "description": "Learn how to protect your WordPress website",
+  "difficulty": "Intermediate",
+  "time": "60 mins",
+  "details": {
+    "steps": [
+      {
+        "title": "Docker Configuration",
+        "text": "step1.md"
+      },
+	  {
+        "title": "WordPress & WooCommerce Setup",
+        "text": "step2.md"
+      },
+	  {
+        "title": "Introduction",
+        "text": "step3.md"
+      },
+      {
+        "title": "Self-Learning Firewall",
+        "text": "step4.md"
+      },
+      {
+        "title": "Scan for  vulnerability",
+        "text": "step5.md"
+      },
+      {
+        "title": "Other Wordfence features",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe",
+	"showdashboard": true,
+	"dashboards": [{"name":"Wordpress","port":10080}]
+  },
+  "backend": {
+    "imageid": "docker-swarm"
+  }
+}
