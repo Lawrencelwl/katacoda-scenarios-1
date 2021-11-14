@@ -49,7 +49,7 @@ For existing websites/stores:
 		If your customers enter their information on a Third-Party Payment Page such as PayPal, Chase Paymentech
 		Your website barely saves the credit card information of the customers.
 		
-		Website for SAQ A is: (https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A.pdf?agreement=true&time=1636864424086)
+	Website for SAQ A is: (https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A.pdf?agreement=true&time=1636864424086)
 		
 	Choose SAQ A-EP if:
 	
@@ -58,7 +58,7 @@ For existing websites/stores:
 		encrypted. Example using this payment methods are WooCommerce's Stripe.SAQ A-EP is longer than SAQ A because it involves
 		in more security concerns.
 		
-		Website for SAQ A-EP is: (https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A_EP.pdf?agreement=true&time=1636864424097)
+	Website for SAQ A-EP is: (https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A_EP.pdf?agreement=true&time=1636864424097)
 
 3. Submit yur PCI SAQ
 	
