@@ -11,7 +11,7 @@ WooCommerce has its own settings to configure SSL certificates for new stores an
 For New websites/stores:
 	
 	SSL certificate need to be installed first, if not, error will be shown (failed to establish secure connection)
-	![Step23](./assets/27.png)
+![Step23](./assets/27.png)
 	
 	Click Settings > General 
 	![Step](./assets/23.png)
