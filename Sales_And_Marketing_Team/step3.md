@@ -14,13 +14,13 @@ For New websites/stores:
 ![Step23](./assets/27.png)
 	
 	Click Settings > General 
-	![Step](./assets/23.png)
+![Step24](./assets/23.png)
 
 	Update the WordPress Address and Site Address to include https
-	![Step](./assets/24.png)
+![Step25](./assets/24.png)
 	
 	Save changes
-	![Step](./assets/25.png)
+![Step26](./assets/25.png)
 	
 For existing websites/stores:
 	
@@ -31,13 +31,13 @@ For existing websites/stores:
 	To Set up:
 		
 		Navigate to plugin > Add New > Search Really Simple SSL
-		![Step](./assets/26.png)
+![Step27](./assets/26.png)
 		
 		Install > Activate
-		![Step](./assets/28.png)
+![Step28](./assets/28.png)
 		
 		If SSL certificate is ready, simply click activate SSL to enable SSL migration
-		![Step](./assets/29.png)
+![Step29](./assets/29.png)
 		
 2. Check your PCI SAQ
 	
@@ -49,7 +49,7 @@ For existing websites/stores:
 		If your customers enter their information on a Third-Party Payment Page such as PayPal, Chase Paymentech
 		Your website barely saves the credit card information of the customers.
 		
-		Website for SAQ A is: [here](https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A.pdf?agreement=true&time=1636864424086)
+		Website for SAQ A is: (https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A.pdf?agreement=true&time=1636864424086)
 		
 	Choose SAQ A-EP if:
 	
@@ -58,7 +58,7 @@ For existing websites/stores:
 		encrypted. Example using this payment methods are WooCommerce's Stripe.SAQ A-EP is longer than SAQ A because it involves
 		in more security concerns.
 		
-		Website for SAQ A-EP is: [here] (https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A_EP.pdf?agreement=true&time=1636864424097)
+		Website for SAQ A-EP is: (https://www.pcisecuritystandards.org/documents/PCI-DSS-v3_2_1-SAQ-A_EP.pdf?agreement=true&time=1636864424097)
 
 3. Submit yur PCI SAQ
 	
@@ -67,7 +67,7 @@ For existing websites/stores:
 	For SAQ A-EP, you need to use a PCI-Approved Scanning Vendor (ASV) to scan your website to see if there is any malware
 	and submit successful scan to the enforcing organizations.
 	
-	[Here are the list of ASV] (https://www.pcisecuritystandards.org/assessors_and_solutions/approved_scanning_vendors)
+	Here are the list of ASV: (https://www.pcisecuritystandards.org/assessors_and_solutions/approved_scanning_vendors)
 	
 
 And you are good to go!
