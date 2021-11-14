@@ -1,0 +1,1 @@
+In this scenario, you will learn how to install Two-Factor Authentication to protect your wordpress security. It is because password is used as the major authentication method. Therefore, this plugin can strengthen the existing of password-based authentication and authorization and adopt alternative authentication approaches when user login wordpress. 
