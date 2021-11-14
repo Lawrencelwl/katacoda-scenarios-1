@@ -10,18 +10,18 @@ Setup:
 	Click Install and activate when it's done
 	
 	Click settings
-	![Step](./assets/41.png)
+[!Step41](./assets/41.png)
 	
 	Check out the general settings for the cookies
 	See if it's enabled and using GDPR options
-	![Step](./assets/42.png)
+[!Step42](./assets/42.png)
 	
 	Navigate to Customise Cookie Bar
 	Edit your messge Heading to message and other configurations
-	![Step](./assets/43.png)
+[!Step43](./assets/43.png)
 	
 	Click update Settings when you finished
-	![Step](./assets/44.png)
+[!Step44](./assets/44.png)
 	
 Congrats you have updated your first cookies consent complies with GDPR law
 

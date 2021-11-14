@@ -61,7 +61,7 @@ the website will collect from the users
 d. From WooCommerce, accounts and policy should also be updated
 	
 	Navigate to WooCommerce > Settings > Accounts and Privacy
-![Step40] (./assets/39.png)
+![Step40](./assets/39.png)
 	
 	Privacy Policy and Personal data retention can also be configured in this settings
 	
