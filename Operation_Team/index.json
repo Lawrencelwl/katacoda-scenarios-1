@@ -2,7 +2,7 @@
   "title": "Operation_Scenario",
   "description": "The basic setup of MySQL, Wordpress and Woocommerce and security techniques",
   "difficulty": "Intermediate",
-  "time": "45 mins",
+  "time": "60 mins",
   "details": {
     "steps": [
       {

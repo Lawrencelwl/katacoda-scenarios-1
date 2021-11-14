@@ -1,0 +1,42 @@
+{
+  "title": "Sales_And_Marketing_Scenario",
+  "description": "Security techniques for SAM team",
+  "difficulty": "Intermediate",
+  "time": "60 mins",
+  "details": {
+    "steps": [
+      {
+        "title": "Basic Docker Configurations",
+        "text": "step1.md"
+      },
+      {
+        "title": "WordPress and WooCommerce Setup",
+        "text": "step2.md"
+      },
+      {
+        "title": "Steps for Compliance with PCI DSS",
+        "text": "step3.md"
+      },
+      {
+        "title": "WordPress and WooCommerce GDPR configs",
+        "text": "step4.md"
+      },
+      {
+        "title": "Plugin for GDPR",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker-swarm"
+  }
+}
