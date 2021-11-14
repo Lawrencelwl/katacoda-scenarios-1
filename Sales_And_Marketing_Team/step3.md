@@ -11,16 +11,16 @@ WooCommerce has its own settings to configure SSL certificates for new stores an
 For New websites/stores:
 	
 	SSL certificate need to be installed first, if not, error will be shown (failed to establish secure connection)
-	[!Step](./assets/27.png)
+	![Step](./assets/27.png)
 	
 	Click Settings > General 
-	[!Step](./assets/23.png)
+	![Step](./assets/23.png)
 
 	Update the WordPress Address and Site Address to include https
-	[!Step](./assets/24.png)
+	![Step](./assets/24.png)
 	
 	Save changes
-	[!Step](./assets/25.png)
+	![Step](./assets/25.png)
 	
 For existing websites/stores:
 	
@@ -31,13 +31,13 @@ For existing websites/stores:
 	To Set up:
 		
 		Navigate to plugin > Add New > Search Really Simple SSL
-		[!Step](./assets/26.png)
+		![Step](./assets/26.png)
 		
 		Install > Activate
-		[!Step](./assets/28.png)
+		![Step](./assets/28.png)
 		
 		If SSL certificate is ready, simply click activate SSL to enable SSL migration
-		[!Step](./assets/29.png)
+		![Step](./assets/29.png)
 		
 2. Check your PCI SAQ
 	
