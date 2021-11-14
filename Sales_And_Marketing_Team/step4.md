@@ -26,18 +26,18 @@ WordPress provides the required features to handle
 	Export Personal Data:
 	
 		Navigate to Tools > Export Personal Data
-	![Step32](./assets/32.png)
+![Step32](./assets/32.png)
 	
 		You can enter username or his address in order to export his information to him
-	![Step33](./assets/33.png)
+![Step33](./assets/33.png)
 	
 	Erase Personal Data:
 		
 		Navigate to Tools > Erase Personal Data
-	![Step34](./assets/32.png)
+![Step34](./assets/32.png)
 		
 		You can enter the username or email address which user wish to delete
-	![Step35](./assets/34.png)
+![Step35](./assets/34.png)
 		
 c. Privacy Policy Generator
 
