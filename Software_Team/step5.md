@@ -3,7 +3,7 @@ Wordfence offers a scan function which examines all files on the website looking
 ## Scan the website
 
 Simply press START NEW SCAN button and you will soon see a brief report about our WordPress server security status.
-![Step26](./assets/26.png)
+![Step26](./assets/26.PNG)
 
 Here is an example of vulnerability found on a WordPress website
-![Step27](./assets/27.png)
+![Step27](./assets/27.PNG)
