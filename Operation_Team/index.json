@@ -32,6 +32,10 @@
 	  {
         "title": "Step 7",
         "text": "step7.md"
+      },
+	  {
+        "title": "Step 7",
+        "text": "step7.md"
       }
     ],
     "intro": {
@@ -42,9 +46,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
-	"showdashboard": true,
-	"dashboards": [{"name":"Wordpress","port":10080}]
+    "uilayout": "terminal",
   },
   "backend": {
     "imageid": "docker-swarm"

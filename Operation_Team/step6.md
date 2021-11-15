@@ -1,7 +1,9 @@
-For database security. Data backup is a must. And the data is not recommended to be stored locally. This is because when there is a problem with local resources, data will be lost. Therefore, it is generally recommended to store the data on an external hard drive or in the cloud. And you need 2 backups. In order to avoid one of the hard drives has been damaged. 
+For protect the important data. We need to encrypt the information.
 
-Full back up:
-`docker exec mysql //usr/bin/mysqldump -u root --password=12345 --routines --triggers mysql > test_db_backup.sql`{{execute}}
+Insert encrypted data:
+`INSERT INTO staff (staff_id, last_name, first_name, email, password) VALUE ("1", "Chan", "Bob", "bob@email.com", AES_ENCRYPT('12345', 'Staff password'));`{{execute}}
 
-Recovery:
-`cat test_db_backup.sql | docker exec -i mysql //usr/bin/mysql -u root --password=12345 mysql`{{execute}}
+Show decrypted data:
+`SELECT CAST(AES_DECRYPT(password, 'Staff password') as char(100)) from staff;`{{execute}}
+
+After decrypted the message. We can see the original data.
