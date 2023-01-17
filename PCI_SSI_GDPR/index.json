@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Basic Docker Configurations",
-        "text": "step1.md"
+        "text": "step1.md",
+        "text1": "step1.md"
       },
       {
         "title": "WordPress and WooCommerce Setup",
